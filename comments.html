@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Comments</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="websystems.css">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        
+    </head>
+    
+<div class="container">
+    <h1> Comment</h1>
+   
+    <ul class="navbar">
+        <li><a href="index.html">Index</a></li>
+        <li><a href="past.html">Past</a></li>
+        <li><a href="future.html">Future</a></li>
+        <li class="selected"><a href="comments.html">Comments</a></li>
+    </ul>
+
+</div>
+    
+
+<div class="index2">
+
+    <h2 class=subtitle> Overview</h2>
+
+    <p>
+        In this segment we will be going through the technicalities of how the website is constructed. This website consists of 4 HTML's that 
+        can be easily navigated via a navbar on the top of the screen. The table below provides an overview of how the site is structured
+    </p>
+   
+</div>
+<div class="ctable">
+    <table class="commenttable1">
+        <tr>
+            <th class="ctablerow"> File Name</th>
+            <th class="ctablerow"> Title</th>
+            <th class="ctablerow"> File Type</th>
+            <th class="ctablerow"> Description</th>
+        </tr>
+        <tr>
+            <td class="ctablerow">Index.html</td>
+            <td class="ctablerow">Index</td>
+            <td class="ctablerow">HTML</td>
+            <td class="ctablerow">Home Page/Breif About Me</td>
+        </tr>
+        <tr>
+            <td class="ctablerow">Past.html</td>
+            <td class="ctablerow">Past</td>
+            <td class="ctablerow">HTML</td>
+            <td class="ctablerow">Description of my past</td>
+        </tr>
+        <tr>
+            <td class="ctablerow">Future.HTML</td>
+            <td class="ctablerow">Future</td>
+            <td class="ctablerow">HTML</td>
+            <td class="ctablerow">Futre insiprations/Goal</td>
+        </tr>
+        <tr>
+            <td class="ctablerow">comments.HTML</td>
+            <td class="ctablerow">Comments</td>
+            <td class="ctablerow">HTML</td>
+            <td class="ctablerow">Technical information on Site</td>
+        </tr>
+        <tr>
+            <td class="ctablerow">Websystems.css</td>
+            <td class="ctablerow">N/A</td>
+            <td class="ctablerow">CSS</td>
+            <td class="ctablerow">Stylesheet controling look of the website</td>
+        </tr>
+    </table>
+</div>
+<div class="index2">
+
+    <h3 class=subtitle>Website Structure</h3>
+    <p>
+        The Website are all structured very similarly to eachother with minor adjustments based on how the content is to be displayed.
+        To summarise how it is layed out, each component are sepeated into different <span class="Name"> Divs</span>. These <span class="Name"> Divs</span>
+         are blocks where we allocate content to be stored within. If we consider the <span class="Name"> Divs</span> to be like wooden building blocks, we 
+         can easily imagine them to be stacking ontop of eachother to create the desired layout. 
+    </p>
+      <div class="ctable">
+        <table>
+            <tr class="commenttable">
+                <th class="visual">Visualisation of Index<img src="./images/LL.PNG" alt="Head"></th>
+                <th class="visual">Visualisation of Other Pages<img src="./images/OPL.PNG" alt="Otherpage"></th>
+            </tr>
+        </table>
+        </div>
+</div>
+<div>
+  <h5 class="subtitle"> Header </h5>
+    <p class="index3">
+        The first <span class="Name"> Div</span> I used contains a simple heading as well as an interactive Navigation bar.It is worth noting that this whole <span class="Name"> Div</span> is classed under "container" to allow editing to be simplified. Individual aspects can be modified by
+        applying it to a seperate class or ID. The heading is identified by the <span class="Name"> H1</span> tag.
+        The Navigation bar is an interactive object that allows the visitor to click on the button to transverse between the different pages. The way this is achieved is by creating a unordered
+        list and formatting it under the class "navbar". Each option is then linked using &lt;a&gt; tag with the appropriate <span class="Name"> Href</span> directory which allows the buttons to function 
+        as intended. 
+    </p> 
+        
+<img class="cimg" src="./images/Header.PNG" alt="Head">
+
+</div>
+
+<div class="index2">
+    <h4 class=subtitle> Main Body</h4>
+    <p> 
+        Right under the Navigation bar is the Main Body. This <span class="Name"> Div</span> is the container that holds the content of the page. While all three pages are similar,
+        they are also very unique (refer to image below). For Example, The index page's "Main Body" contains two different <span class="Name"> Divs</span>. This allows the text to be on one side while having the 
+        picture maintained on the other. The main body for all webpages were class under "main content". This classification allows the container to have the setting which allows it
+        to freely adapt to the changing of screens/zoom levels.        
+    </p>
+</div>
+ <div class="ctable">
+        <table>
+            <tr class="commenttable">
+                <th class="visual">Body of Index<img src="./images/BLL.PNG" alt="BLL"></th>
+                <th class="visual">Body of Other Pages<img src="./images/BOPL.PNG" alt="BOPL"></th>
+            </tr>
+        </table>
+        </div>
+
+<div class="index3">
+    <h6 class="subtitle"> CSS file </h6>
+    <p>
+        This file is very important as it set the parameters for the different html aspects.
+        We can set groups by classifying them into id or class. By classifying them into groups we can
+        create a preset that is applied to those flagged as the class/id. Throughout the assignment 
+        i have classified many different divs, paragraphs and headings to create a uniform font. Rather 
+        than boring you (the reader) with a wall of text explainging everything. Heres a chart that
+        gives you a summary of the commands and their use.
+    </p>
+
+<div class="ctable">
+    <table class="commenttable">
+        <tr class="tablehead"> 
+            <th class="ctablerow"> CSS Option</th>
+            <th class="ctablerow"> What it does</th>
+            <th class="ctablerow"> Extra Note (Refer below)</th>
+        </tr>
+        <tr>
+            <td class="ctablerow">Background</td>
+            <td class="ctablerow">Determines the Background Colour</td>
+            <td class="ctablerow">Refer to #1</td>
+        </tr>
+        <tr>
+            <td class="ctablerow">Color</td>
+            <td class="ctablerow">Determines Colour of Text</td>
+            <td class="ctablerow">Refer to #1</td>
+
+        </tr>
+        <tr>
+            <td class="ctablerow">Text-Align</td>
+            <td class="ctablerow">Formats/Positions Text </td>    
+            <td class="ctablerow">Refer to #2</td>
+
+        </tr>  
+        <tr>
+            <td class="ctablerow">Font-Size</td>
+            <td class="ctablerow">Formats/Determines Text Size </td>
+            <td class="ctablerow">N/A</td>
+
+        </tr>        
+        <tr>
+            <td class="ctablerow">Border</td>
+            <td class="ctablerow">Creates A Border with Varying Styles </td>
+            <td class="ctablerow"> Refer to #3</td>
+        </tr>   
+        <tr>
+            <td class="ctablerow">Margin</td>
+            <td class="ctablerow">Sets the properties of the margin of the Element </td>
+            <td class="ctablerow">Refer to #4</td>
+        </tr>  
+        <tr>
+            <td class="ctablerow">Margin-Top</td>
+            <td class="ctablerow">Sets the properties of the Top margin of the Element </td>
+            <td class="ctablerow">N/A</td>
+        </tr>   
+        <tr>
+            <td class="ctablerow">Padding</td>
+            <td class="ctablerow">Space between the Content and Border </td>
+            <td class="ctablerow"> Refer to #4</td>
+        </tr>  
+        <tr>
+            <td class="ctablerow">Justify-Content</td>
+            <td class="ctablerow">Aligns content to the container(Horizontally)</td>
+            <td class="ctablerow">N/A</td>
+        </tr>  
+        <tr>
+            <td class="ctablerow">Align-Items</td>
+            <td class="ctablerow">Aligns content to the container(Vertically) </td>
+            <td class="ctablerow">N/A</td>
+        </tr>  
+        <tr>
+            <td class="ctablerow">Border-Radius</td>
+            <td class="ctablerow">Defines the Radius of the element (Ref to nav bar's rounded corner) </td>
+            <td class="ctablerow">N/A</td>
+        </tr>  
+        <tr>
+            <td class="ctablerow">Display</td>
+            <td class="ctablerow">Specifys the display Behavior </td>
+            <td class="ctablerow">N/A</td>
+        </tr>  
+         <tr>
+            <td class="ctablerow">Class</td>
+            <td class="ctablerow">Creates a "Tag" which groups/identifies certain elements to have specific settings </td>
+            <td class="ctablerow">Refer to #5</td>
+        </tr>  
+         <tr>
+            <td class="ctablerow">ID</td>
+            <td class="ctablerow">Creates a "Tag" which creates a Unique ID for that element </td>
+            <td class="ctablerow">Refer to #5</td>
+        </tr>  
+    </table>
+</div>
+<p class="note">
+    #1 - Adjusts colour based on input. Can be Hex Value or Colour Name
+</p>
+<p class="note">
+    #2 - The positioning can be adjusted using various settings. E.g. include: Center, Left, Right Justify-Content
+</p>
+<p class="note">
+    #3 - Adjusts the Style of the Border.EG: Dotted, Solid, None. Positioning can be further modified through other commands
+</p>
+<p class="note">
+    #4 - Can be further adjusted by specifying the direction. E.g.: Top,Right,Left,Bottom 
+</p>
+<p class="note">
+    #5 - Can be used to differentiate between different elements. E.g: Heading,Div,Table
+</p>
+</div>
+<div>
+    <p>
+        
+    </p>
+</div>
+
+<div class="index3">
+    <h6 class="subtitle"> Colour Choice </h6>
+    <p>
+        Selecting the ideal colour for the webpage was a pretty dificult aspect to do. Originally I went for a 
+        simple blue, green colour scheme which (in my opinion) went well with eachother. After checking the capability
+        of the colours using the free adobe colour tool online 
+        (<a href="https://color.adobe.com/create/color-accessibility" Style="color:blue">Colour Accessability Tool </a>)(<a href="https://color.adobe.com/create/color-contrast-analyzer" Style="color:blue">Colour Contrast Tool </a>),
+         I had to adjust the color pallet resulting in the colours i have now.The contrast ratio was acceptable according to the tool which allows easy visability of 
+         the text on the page. 
+    </p>
+        <img id="contrast" src="./images/Contrast.PNG" alt="contrast">
+    <p>
+        When selecting the font, i had to be careful to make sure that it wasnt too small for people to read yet not too overpowering. By trial and error i decided to stick to 
+        the current font that i have currently as it seems to be at a good size for others to read. 
+    </p>
+    <h6 class="subtitle"> Accessability and other Features </h6>
+    <p>
+       The selection of colours as mentioned before were selected so that there are no conflicts within the pallet.
+       This allows people with color blind disabilities to be able to see with no issues. The font is a decent size as mentioned
+       above allowing those with visual impairments the ability to view with ease. The Nav bar also has the feature that
+       highlights which page you are currently on allowing easy transversal between the pages.
+
+    </p>
+
+       <h6 class="subtitle"> Verification and Validity </h6>
+    <p>
+       As a final note. This website was checked externally using (<a href="https://jigsaw.w3.org/css-validator/" Style="color:blue">W3C Css Validation Service </a>)
+         (<a href="https://validator.w3.org/" Style="color:blue">W3C Markup Validation Service </a>). Both passed the check with no issues. Passing the css validation as rewarded me with this shiny gold badge.
+
+    </p>
+        <img class="cimg" src="./images/vcss.gif" alt="vcss">
+</div>
+
+</html>
